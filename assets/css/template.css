@@ -404,3 +404,36 @@
          margin-top: 30px;
          border-radius: 5px;
      }
+     
+     @media (max-width:600px) {
+         .banner_headline h1 {
+             font-size: 55px;
+         }
+         .banner_headline h2 {
+             font-size: 17px;
+         }
+         .container {
+             flex-direction: column;
+         }
+         #geral section,
+         #geral aside {
+             padding: 20px;
+         }
+         .footer_area {
+             flex-direction: column;
+             padding: 15px;
+         }
+         .footer_menu {
+             flex-direction: column;
+             padding-top: 15px;
+         }
+         .footer_copy {
+             padding-left: 15px;
+         }
+         header .container {
+             flex-direction: row;
+         }
+         nav ul {
+             flex-direction: column;
+         }
+     }
